@@ -1,0 +1,57 @@
+
+body {
+
+}
+input {
+    border: 2px solid #ccc;
+
+}
+
+.settings{
+    position: fixed;
+    z-index: 1;
+    bottom:5px;
+    right: 5px;
+    width:150px;
+    padding:5px;
+    text-align: center;
+    background-color: rgb(242, 255, 124)
+}
+
+.divider{
+    height: 20vh;
+}
+
+jdp-container{
+    background: var(--input-bg)!important;
+    border: 1px solid var(--input-border)!important;
+    box-shadow: none!important;
+    margin-top: 0.25rem!important;
+    border-radius: 15px!important;
+    padding: 0.5rem!important;
+    z-index: 2 !important;
+    display: none;
+}
+jdp-container .jdp-day, jdp-container .jdp-day-name{
+    border: none!important;
+    color: var(--font-color) !important;
+}
+jdp-container .jdp-day:empty{
+    border-color: transparent!important;
+}
+jdp-container .jdp-month, jdp-container .jdp-month input, jdp-container .jdp-month select, jdp-container .jdp-year, jdp-container .jdp-year input, jdp-container .jdp-year select {
+    color: var(--font-color) !important;
+
+}
+jdp-container, jdp-container *, jdp-container ::after, jdp-container ::before{
+    color: var(--name) !important;
+}
+jdp-container .jdp-month, jdp-container .jdp-month input, jdp-container .jdp-month select, jdp-container .jdp-year, jdp-container .jdp-year input, jdp-container .jdp-year select{
+    color: var(--name) !important;
+}
+jdp-container .jdp-icon-minus svg, jdp-container .jdp-icon-plus svg {
+    fill: var(--name) !important;
+}
+.jdp-btn-empty , .jdp-btn-today {
+    color: #fff!important;
+}

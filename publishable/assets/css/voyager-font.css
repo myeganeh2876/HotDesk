@@ -1,0 +1,848 @@
+
+@font-face {
+    font-family: voyager;
+    src: url(voyager-assets?path=fonts/voyager.eot);
+    src: url(voyager-assets?path=fonts/voyager.eot?#iefix) format("embedded-opentype"), url(voyager-assets?path=fonts/voyager.woff) format("woff"), url(voyager-assets?path=fonts/voyager.ttf) format("truetype"), url(voyager-assets?path=fonts/voyager.svg#voyager) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+[data-icon]:before {
+    content: attr(data-icon)
+}
+
+[class*=" voyager-"]:before, [class^=voyager-]:before, [data-icon]:before {
+    font-family: voyager !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-variant: normal !important;
+    text-transform: none !important;
+    speak: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.voyager-bread:before {
+    content: "a"
+}
+
+.voyager-helm:before {
+    content: "b"
+}
+
+.voyager-play:before {
+    content: "c"
+}
+
+.voyager-activity:before {
+    content: "d"
+}
+
+.voyager-company:before {
+    content: "e"
+}
+
+.voyager-file-text:before {
+    content: "f"
+}
+
+.voyager-folder:before {
+    content: "g"
+}
+
+.voyager-paw:before {
+    content: "h"
+}
+
+.voyager-sort:before {
+    content: "o"
+}
+
+.voyager-sort-asc:before {
+    content: "p"
+}
+
+.voyager-sort-desc:before {
+    content: "q"
+}
+
+.voyager-handle:before {
+    content: "m"
+}
+
+.voyager-hammer:before {
+    content: "n"
+}
+
+.voyager-images:before {
+    content: "i"
+}
+
+.voyager-categories:before {
+    content: "j"
+}
+
+.voyager-group:before {
+    content: "k"
+}
+
+.voyager-person:before {
+    content: "s"
+}
+
+.voyager-people:before {
+    content: "t"
+}
+
+.voyager-power:before {
+    content: "u"
+}
+
+.voyager-tools:before {
+    content: "v"
+}
+
+.voyager-anchor:before {
+    content: "w"
+}
+
+.voyager-double-down:before {
+    content: "x"
+}
+
+.voyager-double-up:before {
+    content: "y"
+}
+
+.voyager-double-left:before {
+    content: "z"
+}
+
+.voyager-double-right:before {
+    content: "A"
+}
+
+.voyager-window-list:before {
+    content: "B"
+}
+
+.voyager-x:before {
+    content: "C"
+}
+
+.voyager-dot:before {
+    content: "D"
+}
+
+.voyager-dot-2:before {
+    content: "E"
+}
+
+.voyager-dot-3:before {
+    content: "F"
+}
+
+.voyager-list:before {
+    content: "G"
+}
+
+.voyager-list-add:before {
+    content: "H"
+}
+
+.voyager-pie-chart:before {
+    content: "I"
+}
+
+.voyager-watch:before {
+    content: "J"
+}
+
+.voyager-data:before {
+    content: "K"
+}
+
+.voyager-music:before {
+    content: "L"
+}
+
+.voyager-settings:before {
+    content: "N"
+}
+
+.voyager-video:before {
+    content: "O"
+}
+
+.voyager-trash:before {
+    content: "P"
+}
+
+.voyager-tv:before {
+    content: "Q"
+}
+
+.voyager-lock:before {
+    content: "R"
+}
+
+.voyager-news:before {
+    content: "M"
+}
+
+.voyager-bag:before {
+    content: "S"
+}
+
+.voyager-upload:before {
+    content: "T"
+}
+
+.voyager-refresh:before {
+    content: "U"
+}
+
+.voyager-character:before {
+    content: "W"
+}
+
+.voyager-move:before {
+    content: "X"
+}
+
+.voyager-paypal:before {
+    content: "V"
+}
+
+.voyager-paper-plane:before {
+    content: "Y"
+}
+
+.voyager-ticket:before {
+    content: "Z"
+}
+
+.voyager-youtube-play:before {
+    content: "0"
+}
+
+.voyager-boat:before {
+    content: "1"
+}
+
+.voyager-check:before {
+    content: "l"
+}
+
+.voyager-alarm-clock:before {
+    content: "2"
+}
+
+.voyager-controller:before {
+    content: "4"
+}
+
+.voyager-pizza:before {
+    content: "5"
+}
+
+.voyager-backpack:before {
+    content: "6"
+}
+
+.voyager-barbeque:before {
+    content: "7"
+}
+
+.voyager-bomb:before {
+    content: "8"
+}
+
+.voyager-book-download:before {
+    content: "9"
+}
+
+.voyager-browser:before {
+    content: "!"
+}
+
+.voyager-brush:before {
+    content: '"'
+}
+
+.voyager-bubble-hear:before {
+    content: "#"
+}
+
+.voyager-polaroid:before {
+    content: "$"
+}
+
+.voyager-crop:before {
+    content: "&"
+}
+
+.voyager-dashboard:before {
+    content: "'"
+}
+
+.voyager-hotdog:before {
+    content: "("
+}
+
+.voyager-laptop:before {
+    content: ")"
+}
+
+.voyager-paint-bucket:before {
+    content: ","
+}
+
+.voyager-photo:before {
+    content: "-"
+}
+
+.voyager-photos:before {
+    content: "."
+}
+
+.voyager-receipt:before {
+    content: "/"
+}
+
+.voyager-buy:before {
+    content: ":"
+}
+
+.voyager-lightbulb:before {
+    content: ";"
+}
+
+.voyager-archive:before {
+    content: "?"
+}
+
+.voyager-paperclip:before {
+    content: "@"
+}
+
+.voyager-warning:before {
+    content: "["
+}
+
+.voyager-basket:before {
+    content: "]"
+}
+
+.voyager-bell:before {
+    content: "^"
+}
+
+.voyager-book:before {
+    content: "_"
+}
+
+.voyager-chat:before {
+    content: "`"
+}
+
+.voyager-down-circled:before {
+    content: "{"
+}
+
+.voyager-location:before {
+    content: "}"
+}
+
+.voyager-forward:before {
+    content: "~"
+}
+
+.voyager-flashlight:before {
+    content: "\\"
+}
+
+.voyager-trophy:before {
+    content: "\E001"
+}
+
+.voyager-diamond:before {
+    content: "\E002"
+}
+
+.voyager-credit-cards:before {
+    content: "\E003"
+}
+
+.voyager-shop:before {
+    content: "\E004"
+}
+
+.voyager-sound:before {
+    content: "\E005"
+}
+
+.voyager-study:before {
+    content: "\E006"
+}
+
+.voyager-pen:before {
+    content: "\E007"
+}
+
+.voyager-params:before {
+    content: "\E008"
+}
+
+.voyager-fire:before {
+    content: "\E009"
+}
+
+.voyager-dollar:before {
+    content: "\E00A"
+}
+
+.voyager-bulb:before {
+    content: "\E00B"
+}
+
+.voyager-lab:before {
+    content: "\E00C"
+}
+
+.voyager-cup:before {
+    content: "\E00D"
+}
+
+.voyager-megaphone:before {
+    content: "\E00E"
+}
+
+.voyager-heart:before {
+    content: "\E00F"
+}
+
+.voyager-bubble:before {
+    content: "\E011"
+}
+
+.voyager-search:before {
+    content: "\E012"
+}
+
+.voyager-tag:before {
+    content: "\E013"
+}
+
+.voyager-world:before {
+    content: "%"
+}
+
+.voyager-camera:before {
+    content: "*"
+}
+
+.voyager-calendar:before {
+    content: "|"
+}
+
+.voyager-mail:before {
+    content: "\E014"
+}
+
+.voyager-phone:before {
+    content: "\E015"
+}
+
+.voyager-star:before {
+    content: "\E016"
+}
+
+.voyager-star-half:before {
+    content: "\E017"
+}
+
+.voyager-star-half-1:before {
+    content: "\E018"
+}
+
+.voyager-star-two:before {
+    content: "\E019"
+}
+
+.voyager-medal-rank-star:before {
+    content: "\E01A"
+}
+
+.voyager-facebook:before {
+    content: "\E01B"
+}
+
+.voyager-google-plus:before {
+    content: "\E01C"
+}
+
+.voyager-twitter:before {
+    content: "\E01D"
+}
+
+.voyager-github:before {
+    content: "\E01E"
+}
+
+.voyager-code:before {
+    content: "\E01F"
+}
+
+.voyager-pie-graph:before {
+    content: "\E020"
+}
+
+.voyager-javascript:before {
+    content: "\E021"
+}
+
+.voyager-wand:before {
+    content: "\E022"
+}
+
+.voyager-wineglass:before {
+    content: "\E023"
+}
+
+.voyager-milestone:before {
+    content: "\E024"
+}
+
+.voyager-terminal:before {
+    content: "\E025"
+}
+
+.voyager-plug:before {
+    content: "\E026"
+}
+
+.voyager-gift:before {
+    content: "\E027"
+}
+
+.voyager-markdown:before {
+    content: "\E028"
+}
+
+.voyager-beer:before {
+    content: "\E029"
+}
+
+.voyager-credit-card:before {
+    content: "\E02A"
+}
+
+.voyager-bolt:before {
+    content: "\E02B"
+}
+
+.voyager-external:before {
+    content: "\E02C"
+}
+
+.voyager-magnet:before {
+    content: "\E02D"
+}
+
+.voyager-certificate:before {
+    content: "\E02E"
+}
+
+.voyager-cloud-download:before {
+    content: "\E02F"
+}
+
+.voyager-campfire:before {
+    content: "\E030"
+}
+
+.voyager-new:before {
+    content: "\E031"
+}
+
+.voyager-skull:before {
+    content: "\E032"
+}
+
+.voyager-telephone:before {
+    content: "\E033"
+}
+
+.voyager-trees:before {
+    content: "\E034"
+}
+
+.voyager-bar-chart:before {
+    content: "\E035"
+}
+
+.voyager-check-circle:before {
+    content: "\E036"
+}
+
+.voyager-exclamation:before {
+    content: "\E037"
+}
+
+.voyager-font:before {
+    content: "\E03A"
+}
+
+.voyager-puzzle:before {
+    content: "\E03B"
+}
+
+.voyager-smile:before {
+    content: "\E03C"
+}
+
+.voyager-frown:before {
+    content: "\E03D"
+}
+
+.voyager-meh:before {
+    content: "\E03E"
+}
+
+.voyager-leaf:before {
+    content: "\E03F"
+}
+
+.voyager-info-circled:before {
+    content: "\E040"
+}
+
+.voyager-underline:before {
+    content: "\E041"
+}
+
+.voyager-wallet:before {
+    content: "\E042"
+}
+
+.voyager-truck:before {
+    content: "\E043"
+}
+
+.voyager-eye:before {
+    content: "\E044"
+}
+
+.voyager-sun:before {
+    content: "\E045"
+}
+
+.voyager-barbell:before {
+    content: "\E04A"
+}
+
+.voyager-bookmark:before {
+    content: "\E04C"
+}
+
+.voyager-volume-up:before {
+    content: "\E04D"
+}
+
+.voyager-volume-down:before {
+    content: "\E04E"
+}
+
+.voyager-wifi:before {
+    content: "\E04F"
+}
+
+.voyager-pause:before {
+    content: "\E053"
+}
+
+.voyager-resize-full:before {
+    content: "\E054"
+}
+
+.voyager-resize-small:before {
+    content: "\E055"
+}
+
+.voyager-download:before {
+    content: "\E056"
+}
+
+.voyager-droplet:before {
+    content: "\E057"
+}
+
+.voyager-umbrella:before {
+    content: "\E058"
+}
+
+.voyager-harddrive:before {
+    content: "\E059"
+}
+
+.voyager-css3:before {
+    content: "\E05A"
+}
+
+.voyager-html5:before {
+    content: "\E05B"
+}
+
+.voyager-tree:before {
+    content: "\E05E"
+}
+
+.voyager-file-code:before {
+    content: "\E061"
+}
+
+.voyager-bug:before {
+    content: "\E062"
+}
+
+.voyager-rocket:before {
+    content: "\E063"
+}
+
+.voyager-key:before {
+    content: "3"
+}
+
+.voyager-question:before {
+    content: "+"
+}
+
+.voyager-cursor:before {
+    content: "<"
+}
+
+.voyager-lifebuoy:before {
+    content: "="
+}
+
+.voyager-thumbs-up:before {
+    content: ">"
+}
+
+.voyager-thumb-tack:before {
+    content: "\E000"
+}
+
+.voyager-edit:before {
+    content: "\E010"
+}
+
+.voyager-angle-down:before {
+    content: "\E038"
+}
+
+.voyager-angle-left:before {
+    content: "\E039"
+}
+
+.voyager-angle-right:before {
+    content: "\E046"
+}
+
+.voyager-angle-up:before {
+    content: "\E047"
+}
+
+.voyager-home:before {
+    content: "\E048"
+}
+
+.voyager-pirate-swords:before {
+    content: "\E04B"
+}
+
+.voyager-pirate:before {
+    content: "\E050"
+}
+
+.voyager-rum:before {
+    content: "\E051"
+}
+
+.voyager-cannon:before {
+    content: "\E049"
+}
+
+.voyager-hook:before {
+    content: "\E052"
+}
+
+.voyager-kraken:before {
+    content: "\E05C"
+}
+
+.voyager-lighthouse:before {
+    content: "\E05D"
+}
+
+.voyager-pirate-hat:before {
+    content: "\E05F"
+}
+
+.voyager-rum-1:before {
+    content: "\E060"
+}
+
+.voyager-ship:before {
+    content: "\E064"
+}
+
+.voyager-treasure:before {
+    content: "\E065"
+}
+
+.voyager-treasure-open:before {
+    content: "\E066"
+}
+
+.voyager-whale:before {
+    content: "\E067"
+}
+
+.voyager-compass:before {
+    content: "\E068"
+}
+
+.voyager-logbook:before {
+    content: "\E069"
+}
+
+.voyager-plus:before {
+    content: "\E06A"
+}
+
+.voyager-documentation:before {
+    content: "r"
+}
+
+.voyager-belt:before {
+    content: "\E06B"
+}
+
+.voyager-zoom-in:before {
+    content: "\E06C"
+}
+
+.voyager-zoom-out:before {
+    content: "\E06D"
+}
+
+.voyager-scissors:before {
+    content: "\E06E"
+}
+
+.voyager-github-icon:before {
+    content: "\E06F"
+}
